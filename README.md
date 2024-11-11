@@ -1,4 +1,4 @@
-# java-cli-bazel-blade-mysql-hibernate-simple
+# java-cli-bazel-blade-postgres-hibernate-simple
 
 ## Description
 Creates a small database table
@@ -11,11 +11,11 @@ hql.
   - hibernate
   - hql
   - blade
-  - mysql driver
+  - postgres driver
 
 ## Docker stack
 - l.gcr.io/google/bazel:latest
-- mariadb:latest
+- postgres:alpine
 
 ## To run
 `sudo ./install.sh -u`

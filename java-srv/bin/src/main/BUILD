@@ -3,7 +3,7 @@ java_binary (
     srcs = glob(["java/**/*.java"]),
     main_class = "example.Main",
     deps = [
-        "@maven//:mysql_mysql_connector_java",
+        "@maven//:org_postgresql_postgresql",
         "@maven//:com_google_code_gson_gson",
         "@maven//:org_hibernate_hibernate_core",
         "@maven//:javax_persistence_javax_persistence_api",
